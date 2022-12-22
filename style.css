@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "regular" ;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "bold" ;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+
+body{
+    font-family: "regular";
+}
+.navbar{
+    background-color: black!important;
+}
+ul.navbar-nav{
+    padding: 1rem 2rem;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: #b43535;
+}
+a.nav-link {
+    font-size: 0.8em;
+}
+a.nav-link.btn{
+    background-color: #b43535;
+    font-weight: bold;
+}
+a.nav-link.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #b43535;
+}
+.fa-bars{
+    color:#fff;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(
+        rgba(133, 198, 241, 0.2),
+        rgba(39, 82, 110, 0.75)), url('images/img2.jpg');
+    background-size:cover ;
+    text-transform: uppercase;
+    color: white;
+}
+.main button {
+    background-color: #b43535;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    width: 12rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 2px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.main h2{
+    font-family: "regular";
+    font-size: 1em;
+}
+.about{
+    background-color: #e9f5f8;
+}
+.choose p{
+    text-align: center;
+}
+.choose h3{
+    font-size: 1.2em;
+}
+.assess,.faq{
+    background-color: #EEEEEE;
+}
+.cockpit img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+h1,h2,h3,h5,td.dt{
+    font-family: "bold";
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.2em;
+}
+p{
+    font-size: 0.8em;
+    color: #393E46;
+}
+.assess button{
+    /* margin-top: 4em; */
+    background: #b43535;
+    font-weight: bold;
+    color: white;
+}
+.course .card{
+    border-radius: 20px;
+}
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.card-body{
+    padding: 1em 2em;
+}
+h5 .card-title{
+    font-weight: bold;
+}
+thead{
+    background-color: #54626F;
+    color: #ffff;
+}
+.accordion-flush .accordion-item{
+    border: none;
+}
+.accordion-button,.accordion-item{
+    border-radius: 12px!important;
+}
+
+.test{
+    background-color: #A6D1E6;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+    margin-top: 2rem;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.profile .details {
+    display: flex;
+    flex-direction: column;
+}
+.career a.btn{
+    background-color: #b43535;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.choose h2,.course h2,.dates h2,.faq h2,.test h2{
+    margin-bottom: 1em;
+}
+.about,.choose,.assess,.faq,.test{
+    padding: 3em 0;
+}
+.course{
+    padding-top: 3em;
+}
+.dates{
+    padding-bottom: 2em;
+}
+.career{
+    padding: 1em 0;
+}
+.career h3{
+    color: #393E46;
+}
+.sec7{
+    background-color: #cbe6ef;
+}
+
+footer{
+    background-color: #181818;
+    color: #fff;
+}
+footer ul,li{
+    list-style: none;
+}
+.kaps p{
+    margin-top: 1em;
+}
+footer li{
+    line-height: 2em;
+}
+footer a{
+    text-decoration: none;
+    color: #666A6D;
+    font-size: 0.7em;
+}
+
+.footer hr{
+    margin-top: 1em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #b43535;
+}
+.socials:hover{
+    cursor: pointer;
+}
+footer li a:hover{
+    color: #fff;
+}
+
+/* media queries */
+
+/* tablet screens*/
+
+@media (max-width: 768px){
+    .about-text{
+        margin-top: 2em!important;
+    }
+    .career h3{
+        font-size: 1.2em;
+    }
+    .kaps{
+        margin-bottom: 2em;
+    }
+    .kaps.socials{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* mobile screens */
+
+@media (max-width:460px){
+    img.logo{
+        max-width: 90px;
+    }
+    a.navbar-brand {
+        font-size: 1em;
+    }
+    .main-text{
+        padding-left: 0.8em!important;
+    }
+    .main h1{
+        font-size: 1.5em;
+    }
+    .main h2{
+        font-size: 0.8em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    h3,h5{
+        font-size: 1em;
+    }
+    .img-col{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .assess-text{
+        text-align: center;
+    }
+    .assess img, .choose img{
+        max-width: 120px;
+    }
+    .dates h2{
+        margin-top: 1em;
+    }
+    .date-row{
+        padding: 0 1em;
+    }
+    td{
+        font-size: 0.5em;
+    }
+    button.accordion-button.collapsed {
+        font-size: 0.6em;
+    }
+    .career h3{
+        font-size: 1em;
+    }
+    .btn-col{
+        justify-content: center!important;
+    }
+    footer{
+        padding-top: 2em;
+    }
+    .socials{
+        display: flex;
+        justify-content: center;
+    }
+    .tc{
+        text-align: center;
+    }
+}
